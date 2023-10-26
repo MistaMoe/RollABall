@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Rotator
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Rotator","summary":null,"pan":{"x":84.5,"y":544.5},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"6cadbf35-6d95-4bac-903e-771db60c2357","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"chainable":false,"parameterNames":["xAngle","yAngle","zAngle"],"member":{"name":"Rotate","parameterTypes":["System.Single","System.Single","System.Single"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%xAngle":{"$content":0.0,"$type":"System.Single"},"%yAngle":{"$content":0.0,"$type":"System.Single"},"%zAngle":{"$content":0.0,"$type":"System.Single"}},"position":{"x":229.0,"y":498.0},"guid":"ec08dc3a-6848-40c1-8ca9-988297cf3eef","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"type":"System.Single","value":{"$content":15.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-109.0,"y":467.0},"guid":"a6b9e32c-6d82-4eec-864e-248e092e660e","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"15"},{"type":"System.Single","value":{"$content":30.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-118.0,"y":567.0},"guid":"f2667d67-89d4-4caf-beac-01a5686bab1e","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"17"},{"type":"System.Single","value":{"$content":45.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-110.0,"y":692.0},"guid":"e5635291-1393-4af7-ac6d-0bbd6ec2c2a0","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"92beb5dc-5ae4-4a4a-add2-473dec5afb21","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"%xAngle","guid":"e9d8069d-cf9c-4bc9-b1b2-82511e5e44e2","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"%yAngle","guid":"e89f4897-c807-4400-948c-16774f080919","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"%zAngle","guid":"bbf9b430-1629-46ec-ab43-a2f4f9442339","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
